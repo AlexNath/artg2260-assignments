@@ -1,7 +1,13 @@
 
-/* costume css stylesheet*/
 
-
+.btn-primary {
+    color: grey;
+    background-color:   lightgrey;
+    border-color: black;}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: grey;
+    background-color: lightgrey;
+    border-color: black;}
 
 .bg-1 {background: linear-gradient(cadetblue, grey); font-family: "Georgia", serif;}
 .bg-2 {; font-family:"Times New Roman", Times, serif;}
