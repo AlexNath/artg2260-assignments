@@ -1,5 +1,4 @@
 
-
 .btn-primary {
     color: grey;
     background-color:   lightgrey;
@@ -9,5 +8,7 @@
     background-color: lightgrey;
     border-color: black;}
 
-.bg-1 {background: linear-gradient(cadetblue, grey); font-family: "Georgia", serif;}
+.bg-1 {; font-family: "Georgia", serif;}
 .bg-2 {; font-family:"Times New Roman", Times, serif;}
+
+
