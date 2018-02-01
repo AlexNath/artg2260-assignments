@@ -2,6 +2,7 @@ var diameter = 5;
 var R = 0;
 var B = 0;
 var G = 0;
+var X = rect( 10 + diameter, 10 + diameter, 10 + diameter, 10+ diameter)
 
 function setup() {
 	var c = createCanvas(700, 700);
@@ -14,8 +15,13 @@ function draw(){
 	noStroke();
 	fill(R, G, B);
 	if (mouseIsPressed) {
-		ellipse(mouseX, mouseY, diameter, diameter);	
+		if (mouseButton === LEFT) {
+		ellipse(mouseX, mouseY, diameter, diameter);
+    }
+	    if (mouseButton === RIGHT) {
+	    rect(mouseX, mouseY, mouseX + 5, mouseY + 5);
 	} 
+  }
 }
 
 function keyPressed () {
