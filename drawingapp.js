@@ -19,7 +19,7 @@ function draw(){
 		ellipse(mouseX, mouseY, diameter, diameter);
     }
 	    if (mouseButton === RIGHT) {
-	    rect(mouseX, mouseY, mouseX + 5, mouseY + 5);
+	    rect(mouseX, mouseY, diameter, diameter);
 	} 
   }
 }
