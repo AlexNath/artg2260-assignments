@@ -18,8 +18,8 @@ function draw(){
 		if (mouseButton === LEFT) {
 		ellipse(mouseX, mouseY, diameter, diameter);
     }
-	    if (mouseButton === RIGHT) {
-	    rect(mouseX, diameter, diameter, diameter);
+	    if (mouseButton === CENTER) {
+	    rect(mouseX, mouseY, diameter, diameter);
 	} 
   }
 }
