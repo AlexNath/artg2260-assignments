@@ -1,10 +1,10 @@
-var diameter = 10;
-var colr = 0;
-var colb = 0;
-var colg = 0;
+var diameter = 5;
+var R = 0;
+var B = 0;
+var G = 0;
 
 function setup() {
-	var c = createCanvas(500, 500);
+	var c = createCanvas(700, 700);
 
 	background( 255, 255, 255);
 
@@ -12,7 +12,7 @@ function setup() {
 
 function draw(){
 	noStroke();
-	fill(colr, colg, colb);
+	fill(R, G, B);
 	if (mouseIsPressed) {
 		ellipse(mouseX, mouseY, diameter, diameter);	
 	} 
@@ -21,39 +21,39 @@ function draw(){
 function keyPressed () {
 	//Black
 	if (key == 'b' || key == 'B') {
-		colr = 0; 
-		colg = 0;
-		colb = 0;
+		R = 0; 
+		G = 0;
+		B = 0;
 	//White
 	} else if (key == 'w' || key == 'W') {
-		colr = 255;
-		colg = 255;
-		colb = 255;
+		R = 255;
+		G = 255;
+		B = 255;
 	//Dark Aquamarine
 	} else if (key == 'a' || key == 'A') {
-		colr =  2;
-		colg = 132;
-		colb = 130;
+		R =  2;
+		G = 132;
+		B = 130;
 	//Bordeau
     } else if (key == 'r' || key == 'R') {
-		colr =  95;
-		colg = 2;
-		colb = 31;
+		R =  95;
+		G = 2;
+		B = 31;
 	//Yellow
 	} else if (key == 'y' || key == 'Y') {
-		colr = 255;
-		colg = 204;
-		colb = 0;
+		R = 255;
+		G = 204;
+		B = 0;
 	//Teal
 	} else if (key == 'g' || key == 'G') {
-		colr = 0;
-		colg = 128;
-		colb = 129;
+		R = 0;
+		G = 128;
+		B = 129;
 	//Organge
 	} else if (key == 'o' || key == 'O') {
-		colr = 255;
-		colg = 127;
-		colb = 80;
+		R = 255;
+		G = 127;
+		B = 80;
 
 	} else if (keyCode == LEFT_ARROW) {
 		diameter *=2;
