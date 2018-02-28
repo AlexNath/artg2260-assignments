@@ -9,7 +9,7 @@ function setup() {
   createCanvas(playfield, 640);
   background(51);
   s = new Snake();
-  frameRate (7);
+  frameRate (9);
   pickLocation();
 }
 
