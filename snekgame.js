@@ -24,7 +24,7 @@ function draw() {
   s.update();
   s.show();
 
-  fill (255,0,100);
+  fill (random);
   rect(food.x,food.y, scl, scl);
 }
 
@@ -53,7 +53,7 @@ function scoreboard() {
   fill(0);
   rect(0, 600, 600, 40);
   fill(255);
-  textFont("Georgia");
+  textFont("Serif");
   textSize(18);
   text("Score: ", 10, 625);
   text("Highscore: ", 450, 625)
