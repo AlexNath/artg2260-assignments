@@ -6,15 +6,15 @@ function setup() {
     noStroke();
 
     phase = 0;
-    speed = 0.03;
-    maxCircleSize = 20;
+    speed = 0.09;
+    maxCircleSize = 40;
 
     numRows = 10;
     numCols = 16;
     numStrands = 2;
 
-    colorA = color(253, 174, 120);
-    colorB = color(226, 129, 161);
+    colorA = color(95, 2, 31);
+    colorB = color(254, 90, 29);
 }
 
 function draw() {
