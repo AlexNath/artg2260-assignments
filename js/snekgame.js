@@ -24,7 +24,7 @@ function draw() {
   s.update();
   s.show();
 
-  fill (random);
+  fill (random(20, 150), random(50, 210), random(100, 20));
   rect(food.x,food.y, scl, scl);
 }
 
@@ -75,7 +75,7 @@ function keyPressed() {
   }
 }
 
-// SNAKE OBJECT with extending tail
+// snake with extending tail
 
 function Snake() {
   this.x =0;
